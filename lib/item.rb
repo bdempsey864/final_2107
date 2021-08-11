@@ -14,4 +14,8 @@ class Item
       value
     end
   end
+
+  def close_bidding
+    require "pry"; binding.pry
+  end
 end
